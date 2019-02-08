@@ -1,0 +1,49 @@
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.selected {
+  background-color: black;
+  color: white; }
+
+body {
+  color: white;
+  background-color: #232323; }
+
+#banner {
+  padding: 50px;
+  text-align: center; }
+
+#control {
+  padding: 25px 300px;
+  text-align: center;
+  background-color: white;
+  color: black; }
+  #control #new-game {
+    text-transform: uppercase;
+    cursor: pointer; }
+  #control #easy {
+    margin-right: 10px;
+    cursor: pointer; }
+  #control #hard {
+    cursor: pointer; }
+
+#container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #container .box {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    padding-bottom: 15%;
+    margin: 1.66%;
+    background-color: darksalmon; }
